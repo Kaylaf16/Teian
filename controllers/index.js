@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-router.use('/testroutes',require('./testroute.js'))
+router.use('/animesearch',require('./animesearch.js'))
 
 module.exports=router;
