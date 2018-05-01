@@ -9,5 +9,5 @@ app.use(express.static("public"));
 var controllers = require('./controllers');
 app.use(controllers);
 app.listen(process.env.PORT || 8000,function() {
-  console.log("Server Running....");
+  console.log("Server Listening on port 8000....");
 });
