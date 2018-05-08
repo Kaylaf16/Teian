@@ -10,7 +10,7 @@ export default class Header extends React.Component {
   render() {
     let style = {
       background: {
-        backgroundColor: '#3F7F6A',
+        backgroundColor: '#138496',
         display: 'flex',
         flexDirection: 'row'
       },
