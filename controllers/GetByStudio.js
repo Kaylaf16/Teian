@@ -9,7 +9,8 @@ var studio = req.query.studio.split(','); // splitting genre
     query = { studio: { $elemMatch: {name: x} } }
     allQuery.push(query)
   })
-  db.get().collection('anime').find({$and:allQuery}).toArray(function(error,result){
+  query ={"title":{$ne:req.query.title}}
+  db.get().collection('anime').find({query,$and:allQuery}).toArray(function(error,result){
     if(error) console.log(error)
     else{
       res.json(result);

@@ -52,7 +52,7 @@ class Home extends React.Component {
           <Container>
             <Row>
               <Col md="12" md={{ size: 5, offset: 3 }} style={{paddingRight: '0'}}>
-                <Input style = {InputStyle} type="text"autoComplete="off" placeholder="Search for Anime" name="animesearch" id="animesearch"/>
+                <Input style = {InputStyle} type="text"autoComplete="off" onkeyplaceholder="Search for Anime" name="animesearch" id="animesearch"/>
               </Col>
               <Col md="12" md={{ size: 1 }} style={{paddingLeft:'0'}}>
                 <Button color="info" id="search">Search</Button>
