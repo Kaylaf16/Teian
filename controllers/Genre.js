@@ -14,7 +14,7 @@ var genre = req.query.genre.split(','); // splitting genre
   db.get().collection('anime').find({query,$and:allQuery}).toArray(function(error,result){
     if(error) console.log(error)
     else{
-      res.json(result);
+      res.redirect('/anime');
     }
   })
 });

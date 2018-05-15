@@ -9,7 +9,6 @@ class Anime extends React.Component {
   render(){
     return(
     <div>
-      <Header />
       <AnimeDescription />
     </div>
     )

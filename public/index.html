@@ -2,9 +2,33 @@
   <head>
     <meta charset="utf-8">
     <title>Teian</title>
+    <link rel ="icon" href = "teiansmall.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href= "index.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    var i = 0;
+    var txt = 'Search by title, find suggestions.';
+    var speed = 50;
+    var counter = 1;
+    var animesearch = document.getElementById("animesearch");
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("animesearch").placeholder += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+
+  }
+
+}
+$(document).ready( function () {
+  typeWriter();
+});
+</script>
   </head>
   <body>
     <div id="app"/>
     <script src="./bundle.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Raleway" rel="stylesheet">
   </body>
 </html>
