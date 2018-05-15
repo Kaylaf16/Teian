@@ -1,7 +1,8 @@
-import React from 'react';
-import {render} from 'react-dom';
+import React from 'react'
+import {render} from 'react-dom'
 import Header from './header.jsx'
-import { Container, Row, Col, Button,Input } from 'reactstrap';
+//import logo from 'public/Teian_logo.png'
+import { Container, Row, Col, Button,Input } from 'reactstrap'
 
 class Home extends React.Component {
 
@@ -47,9 +48,19 @@ class Home extends React.Component {
 
     return (<div style = {divStyle}>
       <Header />
-      <div class="centered" style= {{ marginTop: '15em' }}>
+      <div class="centered" style= {{ marginTop: '10em' }}>
         <form method= "POST" action = "/AnimeSearch" encType="application/x-www-form-urlencoded">
           <Container>
+            <Row>
+              <Col md="12" md={{size: 5, offset: 3 }}>
+                <img src={require('../../public/Teian_logo.png')}
+                  alt="logo"
+                  style={{
+                    marginLeft: '10%',
+                    width: '100%',
+                  }}/>
+              </Col>
+            </Row>
             <Row>
               <Col md="12" md={{ size: 5, offset: 3 }} style={{paddingRight: '0'}}>
                 <Input style = {InputStyle} type="text"autoComplete="off" placeholder="Search for Anime" name="animesearch" id="animesearch"/>
