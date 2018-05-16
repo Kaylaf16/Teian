@@ -1,0 +1,74 @@
+{
+    "_id": "5afb460995a24220f0c0f008",
+    "request_hash": "40d4e731eafba96769a8f9c25515f1884fe48979",
+    "request_cached": true,
+    "mal_id": 970,
+    "link_canonical": "https://myanimelist.net/anime/970/Yokoyama_Mitsuteru_Sangokushi",
+    "title": "Yokoyama Mitsuteru Sangokushi",
+    "title_english": null,
+    "title_japanese": "横山光輝 三国志",
+    "title_synonyms": "Romance of the Three Kingdoms",
+    "image_url": "https://myanimelist.cdn-dena.com/images/anime/9/76348.jpg",
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 47,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired_string": "Oct 18, 1991 to Sep 25, 1992",
+    "aired": {
+        "from": "1991-10-18",
+        "to": "1992-09-25"
+    },
+    "duration": "23 min. per ep.",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 7.46,
+    "scored_by": 1276,
+    "rank": 1792,
+    "popularity": 5558,
+    "members": 3567,
+    "favorites": 24,
+    "synopsis": "Around 1800 years ago in China, the ruling power of the Han dynasty became weakened and the flames of war spread throughout the land. Liu Bei was a young, poor straw-mat seller from the countryside of Hebai Hsing. After pledging eternal brotherhood with the two heroes, Guan Yu and Zhang Fei, Liu began building his idea of a righteous kingdom that would aid citizens who suffered from persecution. (Source: AniDB)",
+    "background": null,
+    "premiered": "Fall 1991",
+    "broadcast": "Unknown",
+    "related": {
+        "Adaptation": [
+            {
+                "mal_id": 3483,
+                "type": "manga",
+                "url": "https://myanimelist.net/manga/3483/Sangokushi",
+                "title": "Sangokushi"
+            }
+        ]
+    },
+    "producer": [
+        {
+            "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo",
+            "name": "TV Tokyo"
+        },
+        {
+            "url": "https://myanimelist.net/anime/producer/164/d-rights",
+            "name": "d-rights"
+        }
+    ],
+    "licensor": [],
+    "studio": [],
+    "genre": [
+        {
+            "url": "https://myanimelist.net/anime/genre/2/Adventure",
+            "name": "Adventure"
+        },
+        {
+            "url": "https://myanimelist.net/anime/genre/13/Historical",
+            "name": "Historical"
+        }
+    ],
+    "opening_theme": [
+        "#1: \"Toki no Kawa\" by FENCE OF DEFENCE",
+        "#2: \"Don&#039;t Look Back\" by FENCE OF DEFENCE"
+    ],
+    "ending_theme": [
+        "#1: \"Sora\" by Mimori Yusa",
+        "#2: \"STANDING ALONE\" by FENCE OF DEFENSE"
+    ]
+}
