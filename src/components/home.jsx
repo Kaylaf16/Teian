@@ -20,7 +20,7 @@ class Home extends React.Component {
     $('#results').hide();
   }
   autoCheck() {
-    let input = '/GetAll/limit?name=' + document.getElementById('animesearch').value;
+    let input = '/api/v1/search?q=' + document.getElementById('animesearch').value;
     this.showResult();
     $("#results").empty();
     setTimeout(function(){
@@ -32,10 +32,8 @@ class Home extends React.Component {
           if(suggestions.length < 5)
           {
               suggestions.push(row.title)
-              $('#results').append('<li id=resultlist>'+ row.title+'</li>');
-              $("#resultlist").click(function(){
-                alert('hi');
-              });
+              $('#results').append(`<li><a href=/${row.title} id=resultlist>${row.title}</a></li>`);
+
           }
         })
       }).catch(e => {
