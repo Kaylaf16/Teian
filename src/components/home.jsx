@@ -49,7 +49,7 @@ class Home extends React.Component {
       marginRight: "auto"
     }
     var centered = {
-      backgroundImage: "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('background.jpeg')",
+      backgroundImage: "linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('background.jpeg')",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
@@ -94,7 +94,7 @@ class Home extends React.Component {
       border: 'none'
     }
     var formStyle = {
-      marginTop: '80px',
+      paddingTop: 0,
       marginLeft: "auto",
       marginRight: "auto"
     }
@@ -152,9 +152,14 @@ class Home extends React.Component {
         <Container style={cStyle}>
           <Row>
             <Col style={colStyle}>
-              <h1 style={headerStyle}>
-                ANIME SEARCH ENGINE</h1>
-              <p style={pStyle}>A New Way to Discover</p>
+              <img src="https://i.imgur.com/wqWgVEN.png"
+                    alt="logo"
+                    style={{
+                      paddingBottom: 0,
+                      width: '70%',
+                      height:'70%',
+                    }}
+              />
             </Col>
           </Row>
         </Container>

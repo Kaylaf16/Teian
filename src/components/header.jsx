@@ -11,7 +11,7 @@ export default class Header extends React.Component {
   render() {
     let style = {
       background: {
-        backgroundColor: '#52B3D9',
+        backgroundColor: '#138496',
         display: 'flex',
         height:'10%',
 
@@ -19,10 +19,11 @@ export default class Header extends React.Component {
 
       links: {
         color:'#EBF2F0',
-        fontSize:22,
-        fontWeight:'light',
         letterSpacing:'2px',
-        paddingLeft:'40px'
+        paddingLeft:'40px',
+        fontWeight:'100',
+        fontWeight:'lighter',
+        fontSize:'25px'
       },
       HeadingStyle:{
         fontWeight:'100',
@@ -57,11 +58,7 @@ export default class Header extends React.Component {
       <div style={style.background}>
         <Nav style = {style.list}>
           <NavItem style = {{float:'left',padding:"6px",paddingTop:'8px',paddingRight:'0px'}}>
-            <NavLink style={style.links} href='/'> <p style = {style.HeadingStyle}>Teian</p> </NavLink>
-
-          </NavItem>
-          <NavItem style = {style.getstarted} >
-            <NavLink>Ready to Go?<Button color="info" id="search" style={style.button}>Get Started</Button></NavLink>
+            <NavLink style={style.links} href='/'>Teian</NavLink>
           </NavItem>
         </Nav>
       </div>

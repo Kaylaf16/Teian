@@ -11,7 +11,7 @@ const Routes = () => (
   <HashRouter>
     <div className = "app">
     <Route exact path="/" component={Home} />
-    <Route exact path="/anime" component={Anime} />
+    <Route exact path="/anime/:id" component={Anime} />
     </div>
   </HashRouter>
 
